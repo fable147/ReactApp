@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paginate{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.paginate li{
+    width: 30px;
+    height: 30px;
+    border:1px solid black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.active {
+    background-color: #1eff83;
+    border-radius: 50%;
+  }
